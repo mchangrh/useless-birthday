@@ -1,0 +1,22 @@
+{
+  "name": "useless-birthday",
+  "version": "0.0.1",
+  "description": "happy birthday with more CPU cycles than it needs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mchangrh/useless-birthday.git"
+  },
+  "author": "Michael Chang <michael@mchang.name>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mchangrh/useless-birthday/issues"
+  },
+  "homepage": "https://github.com/mchangrh/useless-birthday#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1"
+  }
+}

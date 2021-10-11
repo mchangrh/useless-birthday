@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>🎂Happy Birthday Corey🎂</title>
+  </head>
+  <body>
+    <h1>🎂 Happy Birthday Corey!</h1>
+    <button id="start">Start Making Message</button>
+    <p>Please wait, it takes around 1 minute on modern hardware, your browser is not frozen.</p>
+    <div>
+      <h3>Cheap Gift</h3>
+      <p id="cheap-message"></p>
+      <p id="cheap-cost"></p>
+    </div>
+    <div>
+      <h3 id=expensive-title>Expensive Gift</h3>
+      <p id="expensive-message">loading...</p>
+      <p id="expensive-cost"></p>
+    </div>
+    <script src="https://unpkg.com/bcryptjs@2.4.3/dist/bcrypt.min.js"></script>
+    <script src="generator.js"></script>
+    <script src="main.js"></script>
+    <script>
+      var btn = document.getElementById('start');
+      btn.addEventListener("click", makeExpensiveMessage);
+    </script>
+  </body>
+</html>
